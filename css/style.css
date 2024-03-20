@@ -126,3 +126,13 @@ main {
     background-color: rgb(120, 169, 176);
     color: #ffffff;
 }
+
+/* BONUS */
+
+.number:hover, .special:hover, .operators:hover {
+    cursor: pointer;
+}
+
+.number:active, .special:active, .operators:active {
+    box-shadow: 1px 1px 1px #777;
+}
