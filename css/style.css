@@ -58,8 +58,7 @@ main {
     display: flex;
     width: 220px;
     flex-wrap: wrap;
-    gap: 8px;
-    
+    gap: 8px;   
 }
 
 .btn {
@@ -69,6 +68,7 @@ main {
     border-radius: 5px;
     width: 65px;
     height: 65px;
+    box-shadow: 2px 2px 2px #999;
 }
 
 .zero {
@@ -78,6 +78,7 @@ main {
     border-radius: 5px;
     width: 138px;
     height: 65px; 
+    box-shadow: 2px 2px 2px #999;
 }
 
 .number {
@@ -99,13 +100,12 @@ main {
 .special {
     background-color: rgb(245, 160, 64);
     color: #ffffff;
-    
 }
 
 
 /* COLONNA DI DESTRA OPERATORI */
 .right-calcolator {
-    padding-left: 10px;
+    padding-left: 12px;
     width: 60px;
     display: flex;
     flex-direction: column;
@@ -119,11 +119,10 @@ main {
     border-radius: 5px;
     width: 55px;
     height: 55px;
-
+    box-shadow: 2px 2px 2px #999;
 }
 
 .operators {
     background-color: rgb(120, 169, 176);
     color: #ffffff;
-
 }
