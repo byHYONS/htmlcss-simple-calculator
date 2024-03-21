@@ -4,42 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boosio</title>
+    <link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- TESTATA CALCOLATRICE -->
     <main>
-        <div class="d-flex">
-            <div class="head-calcolator calcolator">
-                <span>BOOSIO</span>
-            </div>
-            <!-- DISPLAY CALCOLATRICE -->
-            <div class="display">
-                <span>0</span>
-            </div>
-        <!-- CORPO CALCOLATRICE -->
-        <!-- COLONNA DI SINISTRA NUMERICA -->
-            <div class="body-calcolator calcolator">
-                <div class="left-calcolator">
-                    <div class="number btn">7</div>
-                    <div class="number btn">8</div>
-                    <div class="number btn">9</div>
-                    <div class="number btn">4</div>
-                    <div class="number btn">5</div>
-                    <div class="number btn">6</div>
-                    <div class="number btn">1</div>
-                    <div class="number btn">2</div>
-                    <div class="number btn">3</div>
-                    <div class="number zero">0</div>
-                    <div class="special btn">&equals;</div>
+        <div class="container">
+            <div class="calcolator">    
+                <!-- TESTATA CALCOLATRICE -->
+                <div class="head-calcolator">
+                    <span>BOOSIO</span>
                 </div>
+                <!-- DISPLAY CALCOLATRICE -->
+                <div class="display">
+                    <span>0</span>
+                </div>
+                <!-- CORPO CALCOLATRICE -->
+                <!-- COLONNA DI SINISTRA NUMERICA -->
+                <div class="btn-calcolator">
+                    <div class="numbers">
+                        <button class="number">7</button>
+                        <button class="number">8</button>
+                        <button class="number">9</button>
+                        <button class="number">4</button>
+                        <button class="number">5</button>
+                        <button class="number">6</button>
+                        <button class="number">1</button>
+                        <button class="number">2</button>
+                        <button class="number">3</button>
+                        <button class="zero">0</button>
+                        <button class="orange">&equals;</button>
+                    </div>
                 <!-- COLONNA DI DESTRA OPERATORI -->
-                <div class="right-calcolator">
-                    <div class="btn-2 special">C</div>
-                    <div class="operators btn-2">&plus;</div>
-                    <div class="operators btn-2">&minus;</div>
-                    <div class="operators btn-2">&times;</div>
-                    <div class="operators btn-2">&divide;</div>        
+                    <div class="operators">
+                        <button class="orange">C</button>
+                        <button class="operator">&plus;</button>
+                        <button class="operator">&minus;</button>
+                        <button class="operator">&times;</button>
+                        <button class="operator">&divide;</button>        
+                    </div>
                 </div>
             </div>
         </div>
